@@ -3,13 +3,9 @@
 USE [master]
 GO
 
-/****** Object:  Database [fcx]    Script Date: 22/02/2024 23:43:22 ******/
 CREATE DATABASE [fcx]
  CONTAINMENT = NONE
  ON  PRIMARY 
-( NAME = N'fcx', FILENAME = N'C:\Users\leonardo.pedrosa\fcx.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
- LOG ON 
-( NAME = N'fcx_log', FILENAME = N'C:\Users\leonardo.pedrosa\fcx_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
  WITH CATALOG_COLLATION = DATABASE_DEFAULT
 GO
 
